@@ -9,6 +9,7 @@ namespace MVC_Project.Controllers
 {
     public class BlogController : Controller
     {
+        int i = 8;
         BlogContext db = new BlogContext();
         // GET: Blog
         public ActionResult Index()
